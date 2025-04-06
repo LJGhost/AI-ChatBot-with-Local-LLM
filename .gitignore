@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.log
+
+# Virtual environment
+venv/
+.env/
+.venv/
+
+# VS Code settings
+.vscode/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Streamlit config
+.streamlit/config.toml
+
+# Model and embedding cache
+*.bin
+*.pth
+*.pt
+*.h5
+
+# Hugging Face Transformers & Tokenizers
+~/.cache/huggingface/
+huggingface_cache/
+tokenizers_cache/
+datasets_cache/
+
+# FAISS index files (optional, if persisted)
+*.faiss
+*.idx
+
+# PDFs or raw docs (optional)
+data/*.pdf
+data/*.txt
+
+# System files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Screenshot (optional for sharing only)
+screenshot.png
